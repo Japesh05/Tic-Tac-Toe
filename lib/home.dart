@@ -14,7 +14,6 @@ class home extends StatefulWidget {
 }
 
 class _homeState extends State<home> {
-  playinglist db = playinglist();
   @override
   Widget build(BuildContext context) {
     return Consumer<playinglist>(
